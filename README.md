@@ -1,27 +1,28 @@
-# Face recognition application using pre trained deep learning model
+# Enhancing Online Exams with Face Recognition and Data Analysis Using Visualization
 
-Its a basic face recognizer application which can identify the face(s) of the person(s) showing on a web cam. The implementation is inspired by two path breaking papers on facial recognition using deep convoluted neural network, namely FaceNet and DeepFace.
-I have used pre trained model Keras-OpenFace which is an open source Keras implementation of the OpenFace (Originally Torch implemented)
-The pretrained model that I have used is by Victor Sy Wang's implementation and was loaded using his code: https://github.com/iwantooxxoox/Keras-OpenFace.
+The project aims to develop a comprehensive system for online exam authentication using face recognition techniques, coupled with data analysis and visualization for candidate performance insights. By combining deep learning models for biometric authentication and leveraging Python and Tableau for analytics and visualization, this project aims to enhance the security, integrity, and analytical capabilities of online exams.
 
-![Real Time Face Detection Deep Learning](https://github.com/sumantrajoshi/Face-recognition-using-deep-learning/blob/master/pictures/Real%20Time%20Face%20Detection%20Deep%20Learning.jpg)
+Here we're using a smart learning method called "One-Shot Learning." This way, the computer can recognize you even with just a few pictures of your face. Our project is all about using this clever mix of face recognition and one-shot learning to make online exams more secure and honest.
+
+To build a face recognition system, I will make use of:
+
+1.Siamese Networks
+
+2.the Triplet loss function, described in the FaceNet article by Schroff et al 2015
+
+3.Transfer learning, to save training time by making use of pretrained convolutional neural networks.
+
+4.Keras interface for the TensorFlow library and Keras Applications pretrained models.
 
 # One Shot Learning
 In one shot learning, only one image per person is stored in the database which is passed through the neural network to generate an embedding vector. This embedding vector is compared with the vector generated for the person who has to be recognized. If there exist similarities between the two vectors then the system recognizes that person, else that person is not there in the database. This can be understood by below picture.
 
-![One Shot Learning](https://github.com/sumantrajoshi/Face-recognition-using-deep-learning/blob/master/pictures/One%20Shot%20Learning.JPG)
+# Data Analysis Using Visualisation
+Student Answering pattern is analyzed using Visualization tools like Power BI. The student online examination logs are obtained, Pre-processed and visualized using Power BI. Data Mining, Data Pre-Processing and Data visualization with analytics have done.
 
-# Triplet Loss Function
-Here we are using OpenFace pre-trained model for facial recognition. Without going into much details on how this neural network identify two same faces, let's say that the model is trained on a large set of face data with a loss function which groups identical images together and separate non-identical faces away from each other. Its also known as triplet loss function.
+Extract the Message log of student response in online examination, Pre-process it and Visualise Student Exam Answer Logs in an Interactive graphs and charts.
 
-![Triplet Loss Function](https://github.com/sumantrajoshi/Face-recognition-using-deep-learning/blob/master/pictures/Triplet%20Loss%20Function.JPG)
-
-
-## Video Link
-You can view the application demonstration on Youtube at following link: https://youtu.be/aUYtG2aEKSY
-
-## Medium Article
-To better understand the face recognition using deep learning, you can read my Medium article at : https://medium.com/@sumantrajoshi/face-recognizer-application-using-a-deep-learning-model-python-and-keras-2873e9aa6ab3
+Visualization using Power BI involves creating interactive and informative visual representations of data to gain insights, tell a data-driven story, and facilitate better decision-making. 
 
 
 
