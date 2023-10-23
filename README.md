@@ -14,4 +14,3 @@ To build a face recognition system, I will make use of:
 
 
 
-*This is not the final version of ReadMe*
