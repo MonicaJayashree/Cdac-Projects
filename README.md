@@ -1,3 +1,5 @@
+##Enhancing Online Exams with Face Recognition and Data Analysis Using Visualization
+
 This project aims to develop a comprehensive system for online exam authentication using face recognition techniques, coupled with data visualization for candidate performance insights. By combining deep learning models for biometric authentication and leveraging Python and Tableau for analytics and visualization, this project aims to enhance the security, integrity, and analytical capabilities of online exams.
 
 Here we're using a smart learning method called "One-Shot Learning." This way, the computer can recognize you even with just a few pictures of your face. Our project is all about using this clever mix of face recognition and one-shot learning to make online exams more secure and honest.
