@@ -15,7 +15,7 @@ To build a face recognition system, I will make use of:
 4.Keras interface for the TensorFlow library and Keras Applications pretrained models.
 
 # One Shot Learning
-In one shot learning, only one image per person is stored in the database which is passed through the neural network to generate an embedding vector. This embedding vector is compared with the vector generated for the person who has to be recognized. If there exist similarities between the two vectors then the system recognizes that person, else that person is not there in the database. This can be understood by below picture.
+In one shot learning, only one image per person is stored in the database which is passed through the neural network to generate an embedding vector. This embedding vector is compared with the vector generated for the person who has to be recognized. If there exist similarities between the two vectors then the system recognizes that person, else that person is not there in the database. 
 
 # Data Analysis Using Visualisation
 Student Answering pattern is analyzed using Visualization tools like Power BI. The student online examination logs are obtained, Pre-processed and visualized using Power BI. Data Mining, Data Pre-Processing and Data visualization with analytics have done.
