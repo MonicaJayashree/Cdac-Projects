@@ -1,4 +1,4 @@
-# Enhancing Online Exams with Face Recognition and Data Analysis Using Visualization
+# Secure Online Exams with Face Recognition & Analytics
 
 The project aims to develop a comprehensive system for online exam authentication using face recognition techniques, coupled with data analysis and visualization for candidate performance insights. By combining deep learning models for biometric authentication and leveraging Python and Tableau for analytics and visualization, this project aims to enhance the security, integrity, and analytical capabilities of online exams.
 
